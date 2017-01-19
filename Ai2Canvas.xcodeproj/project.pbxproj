@@ -369,7 +369,7 @@
 				AI_SDK_PATH = "$(HOME)/opt/SDK/Adobe Illustrator CC 2014.1 SDK";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CONFIGURATION_BUILD_DIR = "./../output/mac/$(AI_CONFIGURATION)";
+				CONFIGURATION_BUILD_DIR = "output/mac/$(AI_CONFIGURATION)";
 				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/Default";
 				COPY_PHASE_STRIP = YES;
 				DEAD_CODE_STRIPPING = YES;
@@ -413,11 +413,11 @@
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
 				SDKROOT = macosx;
 				SEPARATE_STRIP = NO;
-				SHARED_PRECOMPS_DIR = "./../output/mac/sharedprecompiledheaders/$(AI_CONFIGURATION)";
+				SHARED_PRECOMPS_DIR = "output/mac/sharedprecompiledheaders/$(AI_CONFIGURATION)";
 				SKIP_INSTALL = NO;
 				STRIP_INSTALLED_PRODUCT = YES;
 				STRIP_STYLE = "non-global";
-				SYMROOT = "./../output/mac/$(AI_CONFIGURATION)";
+				SYMROOT = "output/mac/$(AI_CONFIGURATION)";
 				VALID_ARCHS = "i386 x86_64";
 				WRAPPER_EXTENSION = aip;
 				ZERO_LINK = NO;
@@ -433,7 +433,7 @@
 				AI_SDK_PATH = "$(HOME)/opt/SDK/Adobe Illustrator CC 2014.1 SDK";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CONFIGURATION_BUILD_DIR = "./../output/mac/$(AI_CONFIGURATION)";
+				CONFIGURATION_BUILD_DIR = "output/mac/$(AI_CONFIGURATION)";
 				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/Default";
 				COPY_PHASE_STRIP = YES;
 				DEAD_CODE_STRIPPING = YES;
@@ -477,11 +477,11 @@
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
 				SDKROOT = macosx;
 				SEPARATE_STRIP = NO;
-				SHARED_PRECOMPS_DIR = "./../output/mac/sharedprecompiledheaders/$(AI_CONFIGURATION)";
+				SHARED_PRECOMPS_DIR = "output/mac/sharedprecompiledheaders/$(AI_CONFIGURATION)";
 				SKIP_INSTALL = NO;
 				STRIP_INSTALLED_PRODUCT = YES;
 				STRIP_STYLE = "non-global";
-				SYMROOT = "./../output/mac/$(AI_CONFIGURATION)";
+				SYMROOT = "output/mac/$(AI_CONFIGURATION)";
 				VALID_ARCHS = "i386 x86_64";
 				WRAPPER_EXTENSION = aip;
 				ZERO_LINK = NO;
