@@ -1,1 +1,1 @@
-AI_SDK_PATH=
+AI_SDK_PATH = "$(HOME)/opt/SDK/Adobe Illustrator CC 2014.1 SDK"
