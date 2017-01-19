@@ -57,6 +57,8 @@
 		2AF5F8660CF5F6CF0091D961 /* IThrowException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AF5F8640CF5F6CF0091D961 /* IThrowException.cpp */; };
 		2AF5F86B0CF5F6F60091D961 /* IAIFilePath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AF5F8680CF5F6F60091D961 /* IAIFilePath.cpp */; };
 		2AF5F86C0CF5F6F60091D961 /* IAIUnicodeString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AF5F8690CF5F6F60091D961 /* IAIUnicodeString.cpp */; };
+		E388F17C1E313C17007E843B /* AI-CC-2014.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E388F17A1E313C17007E843B /* AI-CC-2014.xcconfig */; };
+		E388F17D1E313C17007E843B /* AI-CS6.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E388F17B1E313C17007E843B /* AI-CS6.xcconfig */; };
 		F938CB5A0B8B9D8D0039754D /* Ai2Canvas.r in Rez */ = {isa = PBXBuildFile; fileRef = F938CB590B8B9D8D0039754D /* Ai2Canvas.r */; };
 /* End PBXBuildFile section */
 
@@ -113,6 +115,8 @@
 		2AF5F8690CF5F6F60091D961 /* IAIUnicodeString.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = IAIUnicodeString.cpp; path = "$(AI_SDK_PATH)/illustratorapi/illustrator/IAIUnicodeString.cpp"; sourceTree = SOURCE_ROOT; };
 		6E81FE590A8C92CE002569B5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist; name = Info.plist; path = "$(AI_SDK_PATH)/samplecode/common/mac/Info.plist"; sourceTree = SOURCE_ROOT; };
 		6EE2BA530A40BB2600CC7CE2 /* Ai2CanvasMac.aip */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ai2CanvasMac.aip; sourceTree = BUILT_PRODUCTS_DIR; };
+		E388F17A1E313C17007E843B /* AI-CC-2014.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "AI-CC-2014.xcconfig"; path = "Config/AI-CC-2014.xcconfig"; sourceTree = "<group>"; };
+		E388F17B1E313C17007E843B /* AI-CS6.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "AI-CS6.xcconfig"; path = "Config/AI-CS6.xcconfig"; sourceTree = "<group>"; };
 		F938CB590B8B9D8D0039754D /* Ai2Canvas.r */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.rez; name = Ai2Canvas.r; path = Resources/Ai2Canvas.r; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -131,6 +135,7 @@
 		508817C209F0C9740071BF1A = {
 			isa = PBXGroup;
 			children = (
+				E388F1791E313C0A007E843B /* Config */,
 				0982B17A1794C22900293AB1 /* ApplicationServices.framework */,
 				508817F509F0CAB50071BF1A /* Sources */,
 				6EE2BA590A40BDD300CC7CE2 /* Resources */,
@@ -200,6 +205,15 @@
 				6E81FE590A8C92CE002569B5 /* Info.plist */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		E388F1791E313C0A007E843B /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				E388F17A1E313C17007E843B /* AI-CC-2014.xcconfig */,
+				E388F17B1E313C17007E843B /* AI-CS6.xcconfig */,
+			);
+			name = Config;
 			sourceTree = "<group>";
 		};
 		F9C02B940BA6E7C70039151A /* Shared */ = {
@@ -304,6 +318,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E388F17C1E313C17007E843B /* AI-CC-2014.xcconfig in Resources */,
+				E388F17D1E313C17007E843B /* AI-CS6.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
